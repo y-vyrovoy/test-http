@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some form</title>
+</head>
+<body>
+    <div>Here we are, {{ .Text }}!</div>
+
+    <br>
+
+    <form action="file" method="post" enctype="multipart/form-data">
+
+        Add some file<br>
+        <input type="file" name="fileName"><br><br>
+
+        Add some comment<br>
+        <input type="text" name="text"> <br><br>
+
+        <input type="submit" value="Upload">
+
+    </form>
+</body>
+</html>
